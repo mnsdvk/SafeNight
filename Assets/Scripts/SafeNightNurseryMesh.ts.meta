@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/49d31fb4-22e3-4b33-876b-8b56d2614e01>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 88eede5a-f142-40c4-be5c-840e7c5f2a2a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 88eede5a-f142-40c4-be5c-840e7c5f2a2a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fd6849ab-71e3-4d05-b433-0136e52f7175
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fd6849ab-71e3-4d05-b433-0136e52f7175>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 1cd9dd12-1502-42ed-ba57-d7ff8ef9aeab
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    interiorLength: false
+    interiorWidth: false
+    kind: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - kind: baby
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      interiorWidth: !<float> 71.000000
+      interiorLength: !<float> 133.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string kind = "baby" {"hint":"Procedural asset: baby, bottle, crib, bed, chair, lamp, support, pillow, blanket, bumper, toy, ring, room."}'
+    - '// @input Asset.Material material {"hint":"Preset-created SimplePBR or Unlit material; cloned per color batch."}'
+    - '// @input float interiorWidth = 71 {"hint":"Infant surface internal width in centimeters."}'
+    - '// @input float interiorLength = 133 {"hint":"Infant surface internal length in centimeters."}'

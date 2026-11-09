@@ -1,0 +1,45 @@
+{
+  "mutations": [
+    {
+      "name": "early-dwell",
+      "killed": true
+    },
+    {
+      "name": "unknown-passes",
+      "killed": true
+    },
+    {
+      "name": "reverse-priority",
+      "killed": true
+    },
+    {
+      "name": "surface-limit",
+      "killed": true
+    },
+    {
+      "name": "ignore-volume-extents",
+      "killed": true
+    },
+    {
+      "name": "ignore-head-threshold",
+      "killed": true
+    },
+    {
+      "name": "remove-oriented-separation",
+      "killed": true
+    },
+    {
+      "name": "ignore-sleep-position",
+      "killed": true
+    },
+    {
+      "name": "ignore-sleep-containment",
+      "killed": true
+    },
+    {
+      "name": "accept-partial-transcript",
+      "killed": true
+    }
+  ],
+  "survived": 0
+}

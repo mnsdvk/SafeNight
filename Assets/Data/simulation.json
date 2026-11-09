@@ -1,0 +1,88 @@
+{
+  "label": "DEMO SIMULATION PARAMETERS — pending clinical review",
+  "appearMs": 1000,
+  "clearMs": 600,
+  "cooldownMs": 2500,
+  "fadeSeconds": 0.4,
+  "headRiseEnterCm": 5,
+  "headRiseExitCm": 8,
+  "alignmentEnterDeg": 25,
+  "alignmentExitDeg": 18,
+  "supportEnterCm": 12,
+  "supportExitCm": 9,
+  "bottleEnterDeg": 30,
+  "bottleExitDeg": 22,
+  "pauseIntervalSeconds": 45,
+  "pauseDurationSeconds": 5,
+  "sleepInclineMaxDeg": 10,
+  "cribInteriorCm": {
+    "x": 71,
+    "y": 35,
+    "z": 133
+  },
+  "sleepSurfacesCm": {
+    "crib": {
+      "x": 71,
+      "y": 35,
+      "z": 133
+    },
+    "bassinet": {
+      "x": 40,
+      "y": 35,
+      "z": 80
+    },
+    "play yard": {
+      "x": 70,
+      "y": 35,
+      "z": 100
+    },
+    "other firm flat infant surface": {
+      "x": 60,
+      "y": 35,
+      "z": 110
+    }
+  },
+  "dollLengthCm": 50,
+  "voiceEnabled": false,
+  "handContactCm": 3,
+  "bottleRestContactCm": 5,
+  "mouthContactCm": 12,
+  "chairVolumeCenter": {
+    "x": 0,
+    "y": 20,
+    "z": 0
+  },
+  "chairVolumeSize": {
+    "x": 70,
+    "y": 90,
+    "z": 70
+  },
+  "breastPracticePoses": {
+    "cradle": {
+      "offset": [
+        -2,
+        0,
+        0
+      ],
+      "angle": -65
+    },
+    "cross-cradle": {
+      "offset": [
+        0,
+        -3,
+        0
+      ],
+      "angle": -55
+    },
+    "football": {
+      "offset": [
+        -1,
+        3,
+        0
+      ],
+      "angle": 65
+    }
+  },
+  "backFacingEnterDeg": 25,
+  "backFacingExitDeg": 15
+}

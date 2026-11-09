@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/3fcecc2e-b66b-4777-a8d6-d243497d111b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 476fb328-d278-476c-849f-249adea6ed7e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 476fb328-d278-476c-849f-249adea6ed7e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4f87648f-073f-4c57-85e7-dfccffbb04b6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4f87648f-073f-4c57-85e7-dfccffbb04b6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 46901a74-89e2-4768-85ca-ab851640fd79
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    attentionColor: false
+    clearColor: false
+    fadeSeconds: false
+    textColor: false
+    unknownColor: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - width: !<float> 44.000000
+      textColor: !<Vec4> {x: 0.970000, y: 0.940000, z: 0.870000, w: 1.000000}
+      clearColor: !<Vec4> {x: 0.480000, y: 0.840000, z: 0.780000, w: 1.000000}
+      attentionColor: !<Vec4> {x: 1.000000, y: 0.720000, z: 0.360000, w: 1.000000}
+      unknownColor: !<Vec4> {x: 0.770000, y: 0.660000, z: 0.930000, w: 1.000000}
+      fadeSeconds: 0.400000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float width = 44 {"hint":"Card width in centimeters at the authored 110 cm focal plane."}'
+    - '// @input vec4 textColor = {0.97,0.94,0.87,1} {"hint":"Warm white for readable additive-display text.", "widget":"color"}'
+    - '// @input vec4 clearColor = {0.48,0.84,0.78,1} {"hint":"Soft teal for modeled clear states.", "widget":"color"}'
+    - '// @input vec4 attentionColor = {1,0.72,0.36,1} {"hint":"Amber for attention, paired with explicit cue text.", "widget":"color"}'
+    - '// @input vec4 unknownColor = {0.77,0.66,0.93,1} {"hint":"Dusty violet for unknown, paired with a question mark.", "widget":"color"}'
+    - '// @input float fadeSeconds = 0.4 {"hint":"Content fade duration in seconds."}'

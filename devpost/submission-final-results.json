@@ -1,0 +1,144 @@
+{
+  "verifiedAtUtc": "2026-11-09 18:50:41 UTC",
+  "clientDate": "2026-11-10",
+  "timezone": "Asia/Calcutta",
+  "runtimeCodeCheckpoint": "a1f4124",
+  "product": "Safe Night",
+  "stage": "Local product verified for demo recording; video not produced or published",
+  "editor": "Lens Studio 5.24.1",
+  "leaf": "2.0.2",
+  "nodeTests": {
+    "groupsPassed": 12,
+    "failed": 0
+  },
+  "mutations": {
+    "killed": 10,
+    "survived": 0
+  },
+  "previewRegressions": [
+    {
+      "scenarioId": "safe-night-sleep-position",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-full-feed",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-sleep-hazard",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-evidence-review",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-restart-clean",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-breast-mode",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-hero-support",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-unknown-input",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-propped-bottle",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-chair-location",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-real-scale",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-visible-access",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-ik-ray-reach",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-pacing-timer",
+      "status": "succeeded",
+      "target": "preview"
+    }
+  ],
+  "captureScenarios": [
+    {
+      "scenarioId": "safe-night-capture-beat",
+      "status": "succeeded",
+      "target": "preview",
+      "beat": "breast-cradle"
+    },
+    {
+      "scenarioId": "safe-night-capture-beat",
+      "status": "succeeded",
+      "target": "preview",
+      "beat": "breast-cross"
+    },
+    {
+      "scenarioId": "safe-night-capture-beat",
+      "status": "succeeded",
+      "target": "preview",
+      "beat": "breast-alongside"
+    },
+    {
+      "scenarioId": "safe-night-capture-beat",
+      "status": "succeeded",
+      "target": "preview",
+      "beat": "sleep-side"
+    },
+    {
+      "scenarioId": "safe-night-capture-beat",
+      "status": "succeeded",
+      "target": "preview",
+      "beat": "sleep-back"
+    }
+  ],
+  "endToEndRehearsal": {
+    "scenarioId": "safe-night-demo-film",
+    "status": "succeeded",
+    "target": "preview"
+  },
+  "additionalChecks": [
+    "Breast placement bounds passed at the normal and angled viewpoints",
+    "Sleep containment passed with a rotated crib",
+    "Five final captures visually inspected",
+    "Git LFS local fsck passed",
+    "Fresh staged export restored real image and LEAF binaries and passed all 12 Node groups"
+  ],
+  "remaining": [
+    "Video recording and editing are the next user-requested phase",
+    "Public repository, YouTube upload and submission are not performed; local-only preference persists",
+    "Clinical review, real-infant use, hardware comfort and live microphone ASR are not verified",
+    "Organizer acceptance of the truthful post-build planning review is not established"
+  ],
+  "historyNotes": [
+    "Earlier tool timeouts, rejected artwork variants and bounds failures were corrected before the final passing run",
+    "Native audio-export sink warnings were seen during earlier refreshes; final video audio export must be checked during video production"
+  ]
+}

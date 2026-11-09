@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/3154f147-fb28-4234-bd71-6c8c6c78a2e2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e86694be-d920-48a3-8fa4-800a43ee109a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e86694be-d920-48a3-8fa4-800a43ee109a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5ee70c18-4bc5-4658-a95e-23149563e717
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5ee70c18-4bc5-4658-a95e-23149563e717>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c118df6d-e8cd-4809-8311-9a07ef1c6850
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    allowRotation: false
+    colliderSize: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - colliderSize: !<Vec3> {x: 20.000000, y: 50.000000, z: 13.000000}
+      allowRotation: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input vec3 colliderSize = {20,50,13} {"hint":"Collider extent in centimeters. Scaling is locked to preserve real dimensions."}'
+    - '// @input bool allowRotation = true {"hint":"Allow doll/bottle rotation as well as translation."}'

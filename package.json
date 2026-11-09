@@ -1,0 +1,11 @@
+{
+  "name": "safe-night-simulation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simulation-only Specs night-feed practice concept. No real infant, hardware or recognition.",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "test": "node --test Assets/Tests/core.test.cjs",
+    "test:mutations": "node Assets/Tests/mutation-check.cjs"
+  }
+}

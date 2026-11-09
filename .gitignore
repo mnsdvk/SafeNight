@@ -1,0 +1,90 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+ls-live-instance.json
+ls-live-instance.json.tmp
+# END Lens Studio managed Agents-Docs block
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Generated Lens Studio and local editor data
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+.virtual-scene.json
+.clad/
+.claude/
+.cursor/
+.vscode/
+.codex/
+*.lock
+*.pem
+*.key
+node_modules/
+Assets/Tests/mutant-*.ts
+Assets/Tests/mutant-*.ts.meta
+
+# Local checkout of the official planning skill; provenance is documented.
+devpost/learn-specs-review/
+
+# Retain portable source configuration despite the editor's generated ignores.
+!/jsconfig.json
+!/tsconfig.json
+
+# Local video-production dependencies and generated media.
+# Keep only small production sources, captions, descriptions and verification.
+/devpost/video-tools/
+/devpost/video/*
+!/devpost/video/*.py
+!/devpost/video/README.md
+!/devpost/video/timeline.json
+!/devpost/video/upload-description.md
+!/devpost/video/SafeNight-captions.srt
+!/devpost/video/SafeNight-captions.ass
+!/devpost/video/edit-manifest.json
+!/devpost/video/export-verification.json
+
+# Local environments, credentials, logs and delivery archives.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+/*.zip
+/*.7z
+
+# Submission copy and video production stay local to the working project.
+/devpost/video/
+/devpost/demo-script-breast-first.md
+/devpost/demo-script.md
+/devpost/export-source.py
+/devpost/submission-copy-reviewed.md
+/devpost/submission-draft.md
+/devpost/submission-readiness.md

@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-09",
+  "editor": "Lens Studio 5.24.1",
+  "nodeGroupsPassed": 11,
+  "mutationsKilled": 8,
+  "preview": [
+    {
+      "scenarioId": "safe-night-evidence-review",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-chair-location",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-full-feed",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-hero-support",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-unknown-input",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-breast-mode",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-sleep-hazard",
+      "status": "succeeded",
+      "target": "preview",
+      "note": "Passed on retry after tool timeout"
+    },
+    {
+      "scenarioId": "safe-night-propped-bottle",
+      "status": "tool_error",
+      "detail": "Tool execution failed: Scenario safe-night-propped-bottle timed out after 120000ms"
+    },
+    {
+      "scenarioId": "safe-night-propped-bottle",
+      "status": "succeeded",
+      "target": "preview",
+      "note": "Passed on retry after tool timeout"
+    },
+    {
+      "scenarioId": "safe-night-real-scale",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-pacing-timer",
+      "status": "tool_error",
+      "detail": "Tool execution failed: Scenario safe-night-pacing-timer timed out after 120000ms"
+    },
+    {
+      "scenarioId": "safe-night-visible-access",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-ik-ray-reach",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-restart-clean",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "safe-night-pacing-timer",
+      "status": "tool_error",
+      "detail": "Tool execution failed: Scenario safe-night-pacing-timer timed out after 180000ms"
+    }
+  ],
+  "captures": [
+    {
+      "beat": "hero",
+      "status": "succeeded",
+      "path": "evidence/hero-support.png"
+    },
+    {
+      "beat": "welcome",
+      "status": "succeeded",
+      "path": "evidence/welcome.png"
+    }
+  ],
+  "unverified": [
+    "Current-revision pacing timer (120s and 180s tool timeouts)",
+    "End-to-end demo-film scenario",
+    "Live microphone ASR",
+    "Specs hardware",
+    "Clinical validity and usability",
+    "GitHub CI",
+    "Public repository and uploaded video"
+  ]
+}
